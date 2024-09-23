@@ -12,15 +12,6 @@ The goal of this chatbot is to provide an efficient solution to handle user inqu
 
 The chatbot processes and utilizes a cleaned dataset containing customer support queries related to Twitter/X. The embeddings are generated using the `sentence-transformers/all-MiniLM-L6-v2` model, and FAISS indexing is employed to facilitate efficient and fast retrieval of the relevant contexts.
 
-### Key Concepts & Technologies
-
-1. **Natural Language Processing (NLP):** The chatbot interprets and responds to user queries in a natural and conversational manner.
-2. **LangChain:** A framework used to chain together language model interactions with prompts, ensuring contextual accuracy.
-3. **FAISS Indexing:** Used to search and retrieve similar embeddings from a large dataset, improving the efficiency of contextual retrieval.
-4. **Sentence Embeddings:** Vector representations of text are generated using `sentence-transformers` to capture semantic meaning and enhance the chatbot's understanding.
-5. **Transformers:** The chatbot utilizes the `GPT-3.5-turbo` model from OpenAI to generate high-quality responses.
-6. **OpenAI API:** The chatbot interacts with OpenAI’s GPT model through their API, providing intelligent and contextually relevant responses to user inquiries.
-
 ## Instructions for Using the Chatbot
 
 ### 1. Setup and Installation
