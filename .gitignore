@@ -1,0 +1,21 @@
+# Ignore the Data directory
+Data/
+
+# Ignore the virtual environment
+env/
+.env
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore the models (you might want to avoid sharing large files)
+models/
+
+# Ignore any OS-specific files
+.DS_Store
+
+# Ignore logs and other temp files
+*.log
+*.tmp
