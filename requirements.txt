@@ -1,0 +1,31 @@
+# Data processing
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.5.2
+
+# Vector search and embeddings
+faiss-cpu==1.8.0.post1
+sentence-transformers==3.1.1
+
+# Deep learning
+torch==2.2.2
+transformers==4.44.2
+
+# Natural Language Processing
+spacy==3.7.4
+contractions==0.1.73
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0-py3-none-any.whl
+
+# LLM integration
+langchain-community==0.2.0
+openai==1.47.1
+
+# Visualization
+matplotlib==3.9.2
+
+# Web application
+streamlit==1.35.0
+
+# Utilities
+tqdm==4.66.5
+python-dotenv==1.0.1
