@@ -147,13 +147,6 @@ The application will be accessible at http://localhost:8501 in your web browser.
 - **Pandas & NumPy**: For data processing and manipulation
 - **spaCy**: For natural language processing and text preprocessing
 
-## Future Improvements
-
-- Add multi-language support
-- Implement user feedback collection to improve responses
-- Integrate with Twitter/X API for real-time account troubleshooting
-- Add more specialized knowledge domains beyond account support
-
 ## License
 
 [MIT License](LICENSE)
